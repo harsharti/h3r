@@ -10,3 +10,4 @@ mv makezip.sh /data/data/com.termux/files/home
 mv share.sh /data/data/com.termux/files/home
 cd
 chmod +x *
+./makezip.sh
