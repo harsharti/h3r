@@ -1,0 +1,12 @@
+termux-setup-storage
+yes | apt update -y
+yes | apt upgrade -y
+yes | pkg update -y
+yes | pkg upgrade -y
+yes | pkg install git -y
+git clone https://github.com/harsharti/h3r.git
+cd h3r
+mv makezip.sh /data/data/com.termux/files/home
+mv share.sh /data/data/com.termux/files/home
+cd
+chmod +x *
